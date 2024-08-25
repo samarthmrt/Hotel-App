@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu</title>
+  <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  
+<nav class="nav-holder">
+  <img src="images/harmony-logo.png" alt="" id="logo" onclick="window.location.href='index.html'">
+<div class="text-content">
+  <ul class="dropdown">
+      <li aria-label="Our Hotels"   class="dropdown-header" style="font-family: 'Times New Roman', Times, serif;font-size: large;">Our Hotels
+          <ul class="dropdown-content">
+              <li onclick="window.location.href='corbett.html'">Corbett River Creek, Jim Corbett</li>
+              <li>Royal Heritage, Nanital</li>
+              <li>The Buransh, Kausani</li>
+          </ul>
+      </li>
+  </ul>
+  
+  <a id="dining" onclick="window.location.href='menu.html'">Dining</P>
+  <a id="meetings">Meetings</p>
+  <a id="offer">Offers</p>
+  <a id="contact">Contact</p>
+</div>
+
+</nav>
+
+
+
+
+  <div class="button-container">
+    <button class="menu-button" id="all-catg">All</button>
+    <button class="menu-button" id="breakfast-catg">Breakfast</button>
+    <button class="menu-button" id="lunch-catg">Lunch</button> 
+    <button class="menu-button" id="dinner-catg">Dinner</button> 
+    </div>
+    <!-- menu items -->
+  <div class="section-center">
+      <!-- single item -->
+      <article class="menu-item breakfast-item" id="aloo-paratha">
+        <img src="images/paratha.jpg" alt="menu item" class="photo" />
+        <div class="item-info">
+          <header>
+            <h4>Aloo Paratha</h4>
+            <h4 class="price">Rs40/-</h4>
+          </header>
+          <p class="item-text" id="a"style="display: none;">
+            Aloo Paratha:whole wheat pan-fried flatbread stuffed with a spicy potato filling.
+          </p>
+        </div>
+      </article>
+      <article class="menu-item breakfast-item" id="chai">
+        <img src="images/chai.webp" alt="menu item" class="photo" />
+        <div class="item-info">
+          <header>
+            <h4>Chai</h4>
+            <h4 class="price">Rs15/-</h4>
+          </header>
+          <p class="item-text"  id="b" style="display: none;">
+            Chai is a way of life in India. Almost everywhere you go.The sweet,
+            spicy, milky beverage.
+          </p>
+        </div>
+      </article>
+      <article class="menu-item lunch-item" id="chole-bhature">
+        <img src="images/chole_bhature.jpeg" alt="menu item" class="photo" />
+        <div class="item-info">
+          <header>
+            <h4>Chole Bhature</h4>
+            <h4 class="price">Rs80/-</h4>
+          </header>
+          <p class="item-text"  id="c" style="display: none;">
+            Chole Bhature also known as Chana Bhatura is one of the most popular Punjabi dish 
+            liked almost all over India. Chole stands for a spiced tangy chickpea curry and Bhatura 
+            is a soft and fluffy fried leavened bread.
+          </p>
+        </div>
+      </article>
+      <!-- end of single item -->
+      <article class="menu-item lunch-item" id="lassi">
+       <img src="images/Lassi.webp" alt="menu item" class="photo" />
+        <div class="item-info">
+        <header>
+          <h4>Lassi</h4>
+          <h4 class="price">Rs70/-</h4>
+        </header>
+        <p class="item-text"   id="d" style="display: none;">
+          Lassi is a yogurt drink especially popular in norther parts of India. 
+          Its super simple to make, so simple that you actually need only yogurt 
+          and water to make it.
+        </p>
+      </div>
+    </article>
+ 
+  </div>
+      <!-- end of single item -->
+      <!-- single item -->
+  <div class="section-middle">
+
+   <article  class="menu-item dinner-item" id="kadai-paneer">
+     <img src="images/khadai_panner.webp" alt="menu item" class="photo" />
+     <div class="item-info">
+      <header>
+        <h4>Kadai Paneer</h4>
+        <h4 class="price">Rs300/-</h4>
+      </header>
+      <p class="item-text"  id="kp" style="display: none;">
+        Kadai Paneer is a vibrant, tangy, deeply spiced paneer recipe that is perfect 
+        for enjoying all year round. Made with pantry staples like onions, tomatoes, 
+        capsicum (green bell peppers) and Indian spices.
+      </p>
+    </div>
+  </article>
+  <article  class="menu-item dinner-item" id="dal-makhni">
+    <img src="images/Dal-Makhni.jpg" alt="menu item" class="photo" />
+    <div class="item-info">
+     <header>
+      <h4>Dal Makhni</h4>
+      <h4 class="price">Rs300/-</h4>
+     </header>
+     <p class="item-text"   id="f" style="display: none;">
+      There are some dishes that represent Punjabi cuisine, like none other.
+      Dal Makhani is one of them. It is one of the most popular lentil recipes 
+      from North Indian Punjabi cuisine.
+     </p>
+    </div>
+  </article>
+  <article  class="menu-item dinner-item" id="lachha-paratha">
+    <img src="images/Lachcha_Paratha.webp" alt="menu item" class="photo" />
+    <div class="item-info">
+     <header>
+       <h4>Lachha Paratha</h4>
+       <h4 class="price">Rs35/-</h4>
+     </header>
+     <p class="item-text"  id="g" style="display: none;">
+      Lachha paratha or Laccha Paratha is a popular variant of paratha 
+      from North Indian cuisine. These are whole wheat flatbreads made 
+      with a simple unleavened dough.
+     </p>
+    </div>
+  </article>
+  <article class="menu-item dinner-item" id="rice">
+  <img src="images/jeera-rice.jpg" alt="menu item" class="photo" />
+  <div class="item-info">
+    <header>
+      <h4>Rice</h4>
+      <h4 class="price">Rs200/-</h4>
+    </header>
+    <p class="item-text"  id="h" style="display: none;">
+      Jeera rice is also one of the most popular Indian 
+      restaurant dishes; many people prefer to have jeera rice 
+      instead of plain basmati to go along with dals or curry dishes.
+    </p>
+  </div>
+</article>
+</div> 
+<script src="menu.js"></script>
+</body>
+</html>

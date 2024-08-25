@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="form.css">
+
+</head>
+<body>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <nav class="nav-holder">
+    <img src="images/harmony-logo.png" alt="" id="logo" onclick="window.location.href='index.html'">
+<div class="text-content">
+    <ul class="dropdown">
+        <li aria-label="Our Hotels"   class="dropdown-header" style="font-family: 'Times New Roman', Times, serif;font-size: large;">Our Hotels
+            <ul class="dropdown-content">
+                <li onclick="window.location.href='corbett.html'">Corbett River Creek, Jim Corbett</li>
+                <li>Royal Heritage, Nanital</li>
+                <li>The Buransh, Kausani</li>
+            </ul>
+        </li>
+    </ul>
+    
+    <a id="dining" onclick="window.location.href='menu.html'">Dining</P>
+    <a id="meetings">Meetings</p>
+    <a id="offer">Offers</p>
+    <a id="contact">Contact</p>
+</div>
+</nav>
+  
+  
+  <div class="form-container">
+    <div id="form-heading">
+      <h4>Registration Form</h4>
+    </div>
+    <form id="registration-form">
+        <div class="first-name">
+          <label for="first-name" class="form-text" >First Name</label>
+          <input class="input-text" type="text" id="first-name" placeholder="Enter First Name">
+          <span id="first-name-error" class="error-message">First name must be more than 3 characters and contain only alphabet characters</span>
+        </div>
+        <div class="last-name">
+          <label for="last-name" class="form-text" >Last Name</label>
+          <input class="input-text" type="text" id="last-name" placeholder="Enter Last name">
+          <span id="last-name-error" class="error-message">Last name must be more than 3 characters and contain only alphabet characters</span>
+        </div>
+      <div class="contact-number">
+        <label for="contact-number" class="form-text" >Mobile Number</label>
+        <input class="input-text" type="text" id="contact-number" placeholder="Enter mobile number">
+        <span id="contact-number-error" class="error-message">Mobile number must be in 10 digits</span>
+      </div>
+      <div class="email">
+        <label for="email" class="form-text" >Email</label>
+        <input class="input-text" type="text" id="email" placeholder="Enter Email Address">
+        <span id="email-error" class="error-message">Invalid email address</span>
+      </div>
+      <div class="password">
+        <label for="password" class="form-text">Password</label>
+        <input class="input-text" type="password" id="password" placeholder="Password" name="password">
+      </div>
+      <div class="confirm-password">
+        <label for="confirm-password" class="form-text" >Confirm Password</label>
+        <input class="input-text" type="password" id="confirm-password" placeholder="Confirm Password" name="confirm-password">
+        <span id="password-error" class="error-message">Please fill the correct password.</span>
+      </div>
+      <div>
+        <button class="registration-button">Register</button>
+      </div>
+    </form>
+  </div>
+  <script src="first.js"></script>
+</body>
+</html>

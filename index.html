@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="first.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    
+</head>
+
+<body>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <nav class="nav-holder">
+            <img src="images/harmony-logo.png" alt="" id="logo">
+        <div class="text-content">
+            <ul class="dropdown">
+                <li aria-label="Our Hotels"   class="dropdown-header" style="font-family: 'Times New Roman', Times, serif;font-size: large;">Our Hotels
+                    <ul class="dropdown-content">
+                        <li onclick="window.location.href='corbett.html'">Corbett River Creek, Jim Corbett</li>
+                        <li>Royal Heritage, Nanital</li>
+                        <li>The Buransh, Kausani</li>
+                    </ul>
+                </li>
+            </ul>
+            
+            <a id="dining" onclick="window.location.href='menu.html'">Dining</P>
+            <a id="meetings">Meetings</p>
+            <a id="offer">Offers</p>
+            <a id="contact">Contact</p>
+        </div>
+        <div>
+            <button id="registration-button"  onclick="window.location.href='Registration-Form.html'">Register Now</button>
+
+        </div>
+
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide" style="padding-top: 1%; width: 100%; height:80vh;">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/jim-corbett-header.jpg" class="d-block w-100" height="600vh"  alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Corbett River Creek Resort</h1>
+              <h3>Corbett National Park</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/nainital-header.jpg" class="d-block w-100" height="600vh"  alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Royal Heritage Hotel </h1>
+              <h3>Nainital</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/kausani-header.jpg" class="d-block w-100" height="600vh" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>The Buransh</h1>
+              <h3>Kausani</h3>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="tag-line">
+        <h4>Harmony Hotels & Resorts-</h4>
+        <h5>Experience our hospitality in the finest destinations of Uttarakhand. </h5>
+      </div>
+
+    <div class="locations">
+        <h3 style="color: rgba(2, 61, 20, 0.751); font-weight: bold;">NEW PLACES TO DISCOVER</h3>
+        <h4>Our Hotels and Resorts</h5>
+    </div>
+    <div class="hotel-location">
+        <article> 
+            <img src="images/corbett.jpg"  onclick="window.location.href='corbett.html'"> 
+            <h4 style="  color: rgb(241, 201, 24); padding-top: 2%;">Corbett River Creek Resort & Spa</h4>
+            <h6>Jim Corbett</h6>
+            <p>The ultimate destination for<br>
+               extravagance in the midst of wildest<br>
+               creation of Mother Nature.</p>
+            <span>Read More ></span>
+        </article>
+
+        <article>
+            <img src="images/nanital.jpg"> 
+            <h4 style="  color: rgb(241, 201, 24); padding-top: 2%;">The Royal Heritage</h4>
+            <h6>Nainital</h6>
+            <p>A heritage hotel in famous lake<br>
+               destination of Uttarakhand.</p>
+            <span>Read More ></span>
+        </article>
+
+        <article>
+            <img src="images/kasuni.jpg"> 
+            <h4 style="  color: rgb(241, 201, 24); padding-top: 2%;">The Buransh</h4>
+            <h6>Kausani</h6>
+            <p>Kausani offers the magic of the<br>
+               deep rhododendron forests and the<br>
+               majestic mountains</p>
+            <span>Read More ></span>
+        </article>
+    </div>
+
+    <footer class="hotle-footer">
+        <h5>© 2024 - Harmony Hotels & Resorts</h5>
+    </footer>
+      <script src="home.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
